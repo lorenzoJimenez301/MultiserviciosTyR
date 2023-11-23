@@ -1,0 +1,103 @@
+.infoArt2Container {
+    width: 100%;
+}
+
+.art2Title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: var(--azulClaro);
+    font-size: 44px;
+    margin: 0 0 10px 0;
+    width: 100%;
+}
+
+.art2P {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: var(--azulOscuro);
+    margin: 0;
+}
+
+.Art2 {
+    height: 100vh;
+}
+
+.photo_Arte {
+    height: 426px;
+}
+
+.art2List {
+    font-family: 'Poppins', sans-serif;
+    list-style-type: disc;
+    margin: 30px 0 30px 0;
+}
+
+.art2List li {
+    font-size: 16px;
+    margin: 15px 0 0 0;
+    color: var(--azulOscuro);
+}
+
+.swiper-wrapper {
+    transition-duration: 5s;
+}
+
+.Art2Container1,
+.Art2Container2 {
+    width: 50%;
+}
+
+.swiper {
+    width: 75%;
+}
+
+@media (max-width: 992px) {
+    .infoArt2Container {
+        width: 75%;
+    }
+
+    .Art2 {
+        height: 100%;
+    }
+
+    .Art2Container1,
+    .Art2Container2 {
+        width: 100%;
+    }
+
+    .art2Title {
+        font-size: 22px;
+    }
+
+    .art2P {
+        font-size: 14px;
+    }
+
+    .art2List li {
+        font-size: 12px;
+        margin: 10px 0 0 0;
+    }
+
+    .art2List {
+        margin: 20px 0 30px 0;
+    }
+
+    .photo_Arte {
+        height: 250px;
+    }
+
+    .swiper {
+        width: 100%;
+    }
+
+    .superSwiper {
+        text-align: center;
+    }
+}
+
+@media (min-width: 1400px) {
+    .photo_Arte {
+        height: 600px;
+    }
+}

@@ -1,0 +1,104 @@
+.heroContainer {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.opacity {
+    background-color: rgba(5, 5, 5, 0.322);
+    height: 100%;
+    width: 100%;
+}
+
+.divisionEmpresa,
+.botonCotiza,
+.nombre-empresa {
+    width: 100%;
+}
+
+.nombre-empresa h2 {
+    font-family: 'Playfair Display', sans-serif;
+    margin-left: 100px;
+    color: var(--azulOscuro);
+    margin: 0 0 0 70px;
+    font-size: 50px;
+}
+
+.divisionEmpresa h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    letter-spacing: -2px;
+    line-height: 1;
+    margin: 10px 0 0 70px;
+    color: rgb(255, 255, 255);
+}
+
+.botonCotiza {
+    margin: 30px 0px;
+}
+
+.btnCotiza {
+    background-color: var(--azulOscuro);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 30px;
+    margin: 0 0 0 70px;
+    padding: 15px;
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.btnCotiza:hover {
+    transform: scale(1.1);
+}
+
+.btnCotiza a {
+    text-decoration: none;
+    color: white;
+}
+
+.titlesContainer {
+    width: 50%;
+}
+
+.imgLogo {
+    height: 200px;
+}
+
+@media (max-width: 992px) {
+    .titlesContainer {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .nombre-empresa {
+        margin: 0px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nombre-empresa h2 {
+        margin: 0px;
+        font-size: 35px;
+        margin: 0px 0px 10px 0px;
+    }
+
+    .divisionEmpresa h1 {
+        text-align: center;
+        font-size: 40px;
+        margin: 0px 0px 20px 0px;
+        padding: 0px 10px;
+    }
+
+    .botonCotiza {
+        width: 100%;
+        margin: 0;
+    }
+
+    .btnCotiza {
+        font-size: 12px;
+        padding: 10px;
+        margin: auto;
+    }
+}

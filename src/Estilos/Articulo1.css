@@ -1,0 +1,105 @@
+.artTitle {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: var(--azulClaro);
+    font-size: 44px;
+    margin: 0 0 15px 0;
+    width: 100%;
+}
+
+.art1Container {
+    width: 75%;
+}
+
+.textContainer {
+    width: 50%;
+}
+
+.artTitleP {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: var(--azulOscuro);
+    margin: 20px 0 20px 0;
+}
+
+.artList {
+    font-family: 'Poppins', sans-serif;
+    list-style-type: disc;
+    font-size: 15px;
+    font-weight: lighter;
+    margin: 30px 0 30px 60px;
+}
+
+.artList li {
+    font-size: 16px;
+    margin: 15px 0 0 0;
+    color: var(--azulOscuro);
+}
+
+.pc {
+    width: 476px;
+}
+
+.photoArte {
+    height: 240px;
+}
+
+.photoArte3 {
+    height: 221px;
+}
+
+@media (max-width: 992px) {
+    .art1Container {
+        width: 100%;
+    }
+
+    .textContainer {
+        width: 100%;
+    }
+
+    .artTitle {
+        text-align: center;
+        font-size: 25px;
+        margin: 0 0 10px 0;
+    }
+
+    .artTitleP {
+        width: 80%;
+        font-size: 14px;
+        padding: 0 0 0 2px;
+    }
+
+    .artList {
+        margin: 30px 0 30px 70px;
+    }
+
+    .artList li {
+        font-size: 12px;
+        margin: 10px 0 0 0;
+    }
+
+    .photoArte {
+        height: 141px;
+    }
+
+    .photoArte3 {
+        height: 130px;
+    }
+}
+
+@media (max-height: 360px) and (max-width:800px) {
+    .artList {
+        margin: 30px 0 30px 100px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .photoArte3 {
+        height: 268px;
+    }
+
+    .photoArte {
+        height: 290px;
+    }
+}

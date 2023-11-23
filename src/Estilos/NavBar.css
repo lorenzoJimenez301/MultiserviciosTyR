@@ -1,0 +1,53 @@
+.navbar {
+    background-color: var(--azulOscuro);
+}
+
+.Logo {
+    height: 80px;
+    margin-left: 40px;
+}
+
+.navbar a {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.aNav {
+    margin: 0 10px;
+    min-width: max-content;
+}
+
+.aNav:hover {
+    opacity: .5;
+}
+
+.Whats:hover {
+    color: #4cca5a;
+}
+
+.Face:hover {
+    color: #1977f3;
+}
+
+.Insta:hover {
+    color: #f70958;
+}
+
+@media (max-width: 992px) {
+    .navbar {
+        height: auto;
+
+        z-index: 100;
+    }
+
+    .Logo {
+        display: none;
+    }
+
+    .burgerBtn {
+        color: white;
+        font-size: 30px;
+    }
+}

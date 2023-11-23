@@ -1,0 +1,93 @@
+.contactSection {
+    height: 100%;
+}
+.mapContainer, .contactContainer {
+    height: auto;
+    width: 50%;
+}
+.map{
+    height: 100%;
+    width: 100%;
+}
+.contactContainer {
+    height: 100%;
+    width: 75%;
+}
+
+.inputContact {
+    height: 30px;
+    border: none;
+    border-radius: 30px;
+    width: 250px;
+    outline: none;
+    padding-left: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    background-color: #E9E9E9;
+}
+
+.formulario label {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: var(--azulClaro);
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.formulario textarea {
+    width: 300px;
+    border-radius: 30px;
+    border: none;
+    padding: 10px;
+    min-height: 150px;
+    max-height: 150px;
+    outline: none;
+    background-color: #E9E9E9;
+}
+
+.inputBtn {
+    height: 30px;
+    width: 100px;
+    margin-top: 30px;
+    color: white;
+    background-color: var(--azulOscuro);
+    border: none;
+    border-radius: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.contact {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.leaflet-control-attribution {
+    display: none;
+}
+#tituloContacto{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+@media (max-width: 992px) {
+
+    .contactSection {
+        height: 100%;
+        width: 100%;
+    }
+    .mapContainer, .contactContainer {
+        height: auto;
+        width: 100%;
+    }
+    .map{
+        height: 200px;
+        width: 100%;
+    }
+    #tituloContacto{
+        font-size: 25px;
+    }
+}

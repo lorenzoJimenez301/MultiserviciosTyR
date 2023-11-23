@@ -1,0 +1,39 @@
+.sectionInfo {
+    background-color: var(--azulOscuro);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding: 20px;
+    height: auto;
+}
+
+.sectionInfoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionInfo p {
+    font-size: 15px;
+}
+
+.sectionInfo svg {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+    .sectionInfo p {
+        font-size: 10px;
+    }
+
+    .sectionInfo svg {
+        font-size: 15px;
+        margin: 0px;
+        margin: 0 5px 0 0;
+    }
+
+    .sectionInfo {
+        color: white;
+        padding: 10px 20px;
+    }
+}

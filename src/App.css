@@ -1,0 +1,33 @@
+:root {
+    --azulOscuro: #091635;
+    --verdeClaro: #1E8610;
+    --azulClaro: #0B1D53;
+    --dorado: #D4AF37;
+}
+
+* {
+    user-select: none;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+section {
+    height: 100vh;
+}
+
+@media (max-height: 600px) {
+    section {
+        height: 100%;
+    }
+
+    .mapa {
+        height: 100px;
+        width: 100px;
+    }
+}
